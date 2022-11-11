@@ -5,18 +5,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('server/public'))
 
 
-
-// const tasksRouter = require('./routes/task.router.js');   
-
-
-// app.use('/tasks', tasksRouter);                     
-
-
-
-
-
-
-
+const tasksRouter = require('./routes/task.router.js');   
+app.use('/tasks', tasksRouter);                     
 
 
 const PORT = process.env.PORT || 5000;
