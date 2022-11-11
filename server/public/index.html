@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="vendors/jquery.js"></script>
+    <script type="text/javascript" src="scripts/client.js"></script>
+
+    <title>Taskmaster</title>
+</head>
+
+
+<body>
+    <h1>
+        <p class="hOneObey">YOU WILL OBEY...</p>
+        <p class="hOneTaskmaster">EISENHOWER'S TASKMASTER!!!</p>
+    </h1>
+    <h2>
+        <p class="redUrgImp">The highest priority tasks are urgent AND important.</p>
+        <p class="yellowUrgNotImp">Then prioritize tasks that are urgent but NOT important.</p>
+        <p class="blueNotUrgImp">Thirdly, address tasks that are important but NOT urgent.</p>
+        <p class="greenNotUrgNotImp">Finally, delegate or address tasks that are neither urgent NOR important.</p>
+    </h2>
+
+    <section>
+        <div>
+          <h3>Task List</h3>
+          <p><input class="input" id="taskInputField" placeholder="Input New Task Here" /></p>
+          <!-- <p><input class="input" id="dueDeadlineField" placeholder="Input Deadline Here" /></p> -->
+          <p><button class = "input" id="submit">Submit New Task</button></p>
+          <table class="tasklist">
+            <thead>
+              <tr>
+                <th>Task Name</th>
+                <!-- <th>Deadline</th> -->
+                <th>Mark Done</th>
+                <th>Delete Task</th>
+                <!-- <th>Remove Book</th> -->
+              </tr>
+            </thead>
+            <tbody id="bookShelf">
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+</body>
+
+
+</html>
