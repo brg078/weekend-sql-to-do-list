@@ -1,26 +1,57 @@
 body {
-    background-color: gray;
+    background-color: rgb(44, 4, 4);
     text-align: center;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family:Trattatello, fantasy, sans-serif;
 }
 
 h1 {
-    color: darkred;
+    color: rgb(169, 2, 2);
     text-align: center;
 }
 
 h2 {
     font-size: 15px;
-    color: bisque;
+    color: rgb(166, 118, 59);
+}
+
+h3 {
+    color: rgb(166, 118, 59);;
 }
 
 .hOneTaskmaster {
     font-size: 70px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.thead {
+    /* text-decoration: rgb(166, 118, 59); */
+    text-decoration: underline;
+    text-underline-position: below;
+    color: rgb(166, 118, 59);;
+}
+
+.taskNotDoneRow {
+    background-color: rgb(166, 118, 59);
+    font-size: 32px;
+
+}
+
+.taskDoneRow {
+    background-color: grey;
+    text-decoration-line: line-through;
+    font-size: 25px;
+
 }
 
 .tasklist {
     /* justify-items: center; */
     margin-left: auto;
     margin-right: auto;
-    border: 2px;
+    width: 1000px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: rgb(166, 118, 59);
+    background-color: rgb(7, 3, 3);
+    color: rgb(169, 2, 2);
 }
